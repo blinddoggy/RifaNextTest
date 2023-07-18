@@ -42,7 +42,7 @@ const Header = () => {
         windowHeight > 50 && "menu-fixed animated fadeInDown"
       }`}
     >
-      <div className="header__top">
+      {/* <div className="header__top">
         <div className="container">
           <div className="row align-items-center gap-2 gap-md-0">
             <div className="col-sm-6">
@@ -89,7 +89,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="header__bottom">
         <div className="container">
           <nav className="navbar navbar-expand-xl p-0 align-items-center">
@@ -122,7 +122,7 @@ const Header = () => {
                   }`}
                 >
                   <Link href="/#" onClick={(e) => handleOpen(e)}>
-                    Home
+                    Inicio
                   </Link>
                   <ul className="sub-menu">
                     {[
@@ -204,7 +204,7 @@ const Header = () => {
               </ul>
               <div className="nav-right">
                 <Link href="/contest" className="cmn-btn style--three btn--sm">
-                  <Image src={tag} alt="icon" className="me-1" /> Buy Tickets
+                  <Image src={tag} alt="icon" className="me-1" /> Comprar Tiquetes
                 </Link>
               </div>
             </div>
