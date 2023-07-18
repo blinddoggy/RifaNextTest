@@ -40,16 +40,15 @@ const Hero = () => {
           <div className="row justify-content-center justify-content-lg-start">
             <div className="col-lg-6 col-md-8">
               <div className="hero__content">
-                <div className="hero__subtitle">Contest FOR YOUR CHANCE to</div>
-                <h2 className="hero__title">big win</h2>
+                {/* <div className="hero__subtitle">Contest FOR YOUR CHANCE to</div> */}
+                <h2 className="hero__title">sorteos en web3</h2>
                 <p>
-                  Now&#39;s your chance to win a car! Check out the prestige
-                  cars you can win in our car prize draws. Will you be our next
-                  lucky winner?
+                   Entra en la WEB 3.0  Y ganate 180 dólares con la loteria de medellin en solo dos clicks 
+
                 </p>
                 <div className="hero__btn">
                   <Link href="/contest" className="cmn-btn">
-                    Participate Now
+                    Participa Ahora
                   </Link>
                   <button className="video-btn" onClick={() => setIsOpen(true)}>
                     <FaPlay />
